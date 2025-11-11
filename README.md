@@ -1,5 +1,6 @@
 # js-rock-paper-scissors
 Rock Paper Scissors Game
+**[View Live Project](https://augus-dev.github.io/js-rock-paper-scissors/)**
 
 🎮 Features
   - Two Players: Mode for two human players
