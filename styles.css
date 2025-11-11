@@ -1,0 +1,85 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C1E1C1;
+    color: #2C3E50;
+}
+
+.game-container { 
+    max-width: 600px; 
+    width: 100%;
+    margin: 0 auto; 
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.buttons button { 
+    padding: 12px 24px; 
+    margin: 8px; 
+    font-size: 16px; 
+    border: none;
+    border-radius: 8px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}
+
+.results { 
+    margin: 20px 0; 
+    padding: 15px; 
+    background: #f8f9fa; 
+    border-radius: 8px; 
+    border-left: 4px solid #667eea;
+}
+
+.scores { 
+    font-size: 20px; 
+    font-weight: bold; 
+    margin: 20px 0; 
+    color: #2c3e50;
+}
+
+button[onclick="resetGame()"] {
+    padding: 10px 20px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button[onclick="resetGame()"]:hover {
+    background: #e55c5c;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #E6F7FF;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: auto;
+    min-height: 3rem;
+    font-size: 0.8em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2rem;
+    border-radius: 0 0 10px 10px;
+}
