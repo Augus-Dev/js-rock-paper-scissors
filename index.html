@@ -8,12 +8,32 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <header>
-            <h1>Rock Paper Scissors Game</h1>
-            <p>Against the Bot</p>
-        </header>
-        <main>
-            <script src="script.js"></script>
-        </main>
+        <div class="game-container">
+            <header>
+                <h1>🎮 Rock Paper Scissors</h1>
+            </header>
+            <main>
+                <div class="scores">
+                    <span>You: <span id="humanScore">0</span></span> | 
+                    <span>Computer: <span id="computerScore">0</span></span>
+                </div>
+                
+                <div class="buttons">
+                    <button onclick="playRound('Rock')">🪨 Rock</button>
+                    <button onclick="playRound('Paper')">📄 Paper</button>
+                    <button onclick="playRound('Scissors')">✂️ Scissors</button>
+                </div>
+
+                <div class="results">
+                    <p id="roundResult">Make your choice!</p>
+                    <p id="gameResult"></p>
+                </div>
+
+                <button onclick="resetGame()">Reset Game</button>
+            </main>
+            <footer>© 2025 | Augus Portfolio</footer>
+        </div>
+
+        <script src="script.js"></script>
     </body>
 </html>
